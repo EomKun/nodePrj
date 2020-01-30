@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="../js/client.js"></script>
+</head>
+<body>
+    <p>글쓰기 화면</p>
+    <table border="1" width="650">
+        <tr>
+            <td>글 제목</td>
+            <td><input id="board_title" placeholder="제목을 입력하세요"></td>
+        </tr>
+        <tr>
+            <td>글 내용</td>
+            <td><textarea id="board_content" rows="10" cols="50" placeholder="내용을 입력하세요"></textarea></td>
+        </tr>
+    </table>
+    <button id="board_write_btn">등록</button>
+    <button type="reset">취소</button>
+</body>
+</html>
